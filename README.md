@@ -1,9 +1,8 @@
-# Superstore-Sales-Dashboard
 # 📊 SuperStore Sales Dashboard & Forecasting
 
 An interactive Power BI dashboard built to analyze retail sales performance, profitability, and delivery efficiency — with time-series forecasting to project future sales trends.
 
-![Dashboard Overview](screenshots/dashboard-overview.png)
+![Dashboard Overview](Dashboard-Overview.png)
 
 ---
 
@@ -22,7 +21,7 @@ To contribute to data-driven business decision-making by analyzing retail sales 
 - **Geographic Insights** — Sales and profit distribution mapped across 49 U.S. states.
 - **Custom DAX Logic** — Purpose-built measures and calculated columns for sales aggregation and delivery-time analysis.
 
-![Forecasting Page](screenshots/forecasting-page.png)
+![Forecasting Page](Forecasting-Page.png)
 
 ---
 
