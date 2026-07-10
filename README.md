@@ -70,7 +70,7 @@ To support data-driven business decision-making by analyzing retail sales data a
 
 ## 🧮 DAX Measures & Calculated Columns
 
-See [`dax-measures.md`](./dax-measures.md) for full DAX code, including:
+See [`dax-measures.md`](./DAX-Measures.md) for full DAX code, including:
 
 - `Total Sales` — aggregated using `SUMMARIZE()` for forecasting
 - `AvgDelivery` — calculated using `DATEDIFF()` for delivery-time KPIs
