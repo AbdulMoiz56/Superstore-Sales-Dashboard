@@ -1,5 +1,9 @@
 # 📊 SuperStore Sales Dashboard & Forecasting
 
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-217346?style=flat&logo=microsoftexcel&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat)
+
 An interactive Power BI dashboard built to analyze retail sales performance, profitability, and delivery efficiency — with time-series forecasting to project future sales trends.
 
 ![Dashboard Overview](Dashboard-Overview.png)
@@ -8,18 +12,32 @@ An interactive Power BI dashboard built to analyze retail sales performance, pro
 
 ## 🎯 Objective
 
-To contribute to data-driven business decision-making by analyzing retail sales data and applying time-series forecasting techniques to predict future sales trends, while surfacing actionable insights across regions, categories, and delivery performance.
+To support data-driven business decision-making by analyzing retail sales data and applying time-series forecasting to predict future sales trends, while surfacing actionable insights across regions, categories, and delivery performance.
+
+---
+
+## 📈 Key Metrics
+
+| KPI | Value |
+|---|---|
+| 🧾 Total Orders | 3,000+ |
+| 💰 Total Sales | $1.56M+ |
+| 📊 Profit Margin | 11.2% |
+| 🚚 Avg Delivery Time | 3.9 days |
+| 🌍 States Covered | 49 |
+| 🗂️ Categories | 3 |
+| 🔮 Forecast Horizon | 15 days |
 
 ---
 
 ## 🧩 Key Features
 
-- **Interactive KPI Dashboard** — Sales, Profit, Order Count, and Average Delivery Days at a glance.
-- **Multi-level Filtering** — Slice and drill down by Region, Category, Sub-Category, Segment, and Payment Mode.
-- **Sales Forecasting** — 15-day sales forecast built on 2 years of historical order data using Power BI's time-series forecasting engine.
-- **YoY Trend Analysis** — Monthly sales and profit trends compared year-over-year to identify seasonal patterns.
-- **Geographic Insights** — Sales and profit distribution mapped across 49 U.S. states.
-- **Custom DAX Logic** — Purpose-built measures and calculated columns for sales aggregation and delivery-time analysis.
+- **Interactive KPI Dashboard** — Sales, Profit, Order Count, and Average Delivery Days at a glance
+- **Multi-level Filtering** — Slice and drill down by Region, Category, Sub-Category, Segment, and Payment Mode
+- **Sales Forecasting** — 15-day sales forecast built on 2 years of historical order data using Power BI's time-series forecasting engine
+- **YoY Trend Analysis** — Monthly sales and profit trends compared year-over-year to identify seasonal patterns
+- **Geographic Insights** — Sales and profit distribution mapped across 49 U.S. states
+- **Custom DAX Logic** — Purpose-built measures and calculated columns for sales aggregation and delivery-time analysis
 
 ![Forecasting Page](Forecasting-Page.png)
 
@@ -28,10 +46,10 @@ To contribute to data-driven business decision-making by analyzing retail sales 
 ## 🛠️ Tools & Technologies
 
 | Tool | Purpose |
-|------|---------|
+|---|---|
 | **Power BI** | Dashboard design, visualization, forecasting |
 | **DAX** | Custom measures and calculated columns |
-| **Excel / CSV** | Source dataset |
+| **Excel** | Source dataset |
 
 ---
 
@@ -39,7 +57,7 @@ To contribute to data-driven business decision-making by analyzing retail sales 
 
 **Page 1 — Sales Overview**
 - Sales by Payment Mode, Segment, and Region (donut charts)
-- Monthly Sales & Profit by Year-over-Year (trend lines)
+- Monthly Sales & Profit, Year-over-Year (trend lines)
 - Sales by Category & Sub-Category
 - Geographic sales/profit distribution by state
 
@@ -53,12 +71,19 @@ To contribute to data-driven business decision-making by analyzing retail sales 
 ## 🧮 DAX Measures & Calculated Columns
 
 See [`dax-measures.md`](./dax-measures.md) for full DAX code, including:
+
 - `Total Sales` — aggregated using `SUMMARIZE()` for forecasting
 - `AvgDelivery` — calculated using `DATEDIFF()` for delivery-time KPIs
 
 ---
 
-## 📂 Repository Structure
+## 🗂️ Dataset
+
+**SuperStore Sales Dataset** — 5,901 records across orders, shipping, customers, and product categories.
+
+---
+
+## 📁 Repository Structure
 Superstore-Sales-Dashboard/
 ├── README.md
 ├── dax-measures.md
@@ -66,12 +91,6 @@ Superstore-Sales-Dashboard/
 ├── SuperStore Sales DataSet.xlsx
 ├── dashboard-overview.png
 └── forecasting-page.png
-
----
-
-## 📊 Dataset
-
-The dataset used is the publicly available **SuperStore Sales Dataset**, containing 5,900+ records across orders, shipping, customers, and product categories.
 
 ---
 
@@ -88,4 +107,4 @@ The dataset used is the publicly available **SuperStore Sales Dataset**, contain
 **Abdul Moiz**
 Data Analyst | Power BI • SQL • Python
 📧 moiz13072004@gmail.com
-🔗 [LinkedIn](https://linkedin.com/in/amabdulmoiz) | [GitHub](https://github.com/AbdulMoiz56)
+🔗 [LinkedIn](https://linkedin.com/in/amabdulmoiz) · [GitHub](https://github.com/AbdulMoiz56)
